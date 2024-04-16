@@ -1,4 +1,4 @@
-My project is about development company websit
+My project is about development company website
 My team :
 Nguyen Thanh Truc
 Huynh Buu Cuong
