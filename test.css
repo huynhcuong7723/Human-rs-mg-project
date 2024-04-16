@@ -1,0 +1,91 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Mukta', sans-serif; font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400% ;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+/*--------------------------------------------------------------------------------------*/
+/* sidebar CARD */
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 23px;
+color: #818181;
+display: block;
+transition: 0.3s;
+font-family: 'Mukta', sans-serif; font-family: 'Poppins', sans-serif;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
